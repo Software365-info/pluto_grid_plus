@@ -405,7 +405,7 @@ abstract class PlutoVisibilityLayoutChild implements Widget {
 
   double get startPosition;
 
-  bool get keepAlive => false;
+  bool get keepAlive => true;
 }
 
 class _NullElement extends Element {
